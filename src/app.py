@@ -5,7 +5,6 @@ from typing import Tuple
 import cv2
 import numpy as np
 import mediapipe as mp
-
 from gestures import classify_gesture
 from hand_utils import draw_landmarks_and_box, put_fps
 
